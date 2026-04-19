@@ -1,0 +1,23 @@
+# ============================================================
+# Resume Analyzer — Python Dependencies
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- Data Handling ---
+pandas>=2.0.0           # DataFrame operations for loading and manipulating resume data
+numpy>=1.24.0           # Numerical computing (used internally by pandas & sklearn)
+
+# --- Natural Language Processing ---
+nltk>=3.8.0             # Tokenization, stopwords, lemmatization for text cleaning
+
+# --- Machine Learning ---
+scikit-learn>=1.3.0     # ML models (NB, LR, SVM), TF-IDF, LabelEncoder, train/test split
+
+# --- Dataset Download ---
+kagglehub>=0.3.0        # Download datasets directly from Kaggle
+
+# --- Visualization (optional, for analysis) ---
+matplotlib>=3.7.0       # Plotting charts and graphs
+seaborn>=0.12.0         # Beautiful statistical plots (built on matplotlib)
